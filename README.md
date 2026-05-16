@@ -152,21 +152,22 @@ Kreeda-Prerana-Scout-Sports/
 
 ## 📱 Application Screenshots
 
-| Dashboard | Athlete Directory |
-|------------|------------------|
-| ![](screenshots/Dashboard.jpeg) | ![](screenshots/Athlete%20Directory.jpeg) |
-
-| Add New Athlete | Batch Athlete Entry |
-|-----------------|--------------------|
-| ![](screenshots/Add%20New%20Athlete.jpeg) | ![](screenshots/Batch%20Athlete%20Entry.jpeg) |
-
-| Login | Register |
-|--------|-----------|
-| ![](screenshots/Login.jpeg) | ![](screenshots/Register.jpeg) |
-
-| Talent Curve | Trial List |
-|--------------|-------------|
-| ![](screenshots/Talent%20Curve.jpeg) | ![](screenshots/Trial%20list.jpeg) |
+<div align="center">
+  <table>
+    <tr>
+      <td align="center"><b>Dashboard</b><br><img src="screenshots/Dashboard.jpeg" width="220" alt="Dashboard"></td>
+      <td align="center"><b>Athlete Directory</b><br><img src="screenshots/Athlete%20Directory.jpeg" width="220" alt="Athlete Directory"></td>
+      <td align="center"><b>Add New Athlete</b><br><img src="screenshots/Add%20New%20Athlete.jpeg" width="220" alt="Add New Athlete"></td>
+      <td align="center"><b>Batch Athlete Entry</b><br><img src="screenshots/Batch%20Athlete%20Entry.jpeg" width="220" alt="Batch Athlete Entry"></td>
+    </tr>
+    <tr>
+      <td align="center"><b>Login</b><br><img src="screenshots/Login.jpeg" width="220" alt="Login"></td>
+      <td align="center"><b>Register</b><br><img src="screenshots/Register.jpeg" width="220" alt="Register"></td>
+      <td align="center"><b>Talent Curve</b><br><img src="screenshots/Talent%20Curve.jpeg" width="220" alt="Talent Curve"></td>
+      <td align="center"><b>Trial list</b><br><img src="screenshots/Trial%20list.jpeg" width="220" alt="Trial list"></td>
+    </tr>
+  </table>
+</div>
 
 ## 🔮 Future Improvements
 
