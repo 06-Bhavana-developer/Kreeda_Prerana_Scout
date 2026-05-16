@@ -150,15 +150,23 @@ Kreeda-Prerana-Scout-Sports/
 
 ---
 
-## 📱 Screenshots
+## 📱 Application Screenshots
 
-> *Screenshots will appear here once images are added to the screenshots/ folder*
+| Dashboard | Athlete Directory |
+|------------|------------------|
+| ![](screenshots/Dashboard.jpeg) | ![](screenshots/Athlete%20Directory.jpeg) |
 
-| Home Screen | Sports List | Detail Screen |
-| :---: | :---: | :---: |
-| ![Home Screen](screenshots/home_screen.png) | ![Sports List](screenshots/sports_list.png) | ![Detail Screen](screenshots/detail_screen.png) |
+| Add New Athlete | Batch Athlete Entry |
+|-----------------|--------------------|
+| ![](screenshots/Add%20New%20Athlete.jpeg) | ![](screenshots/Batch%20Athlete%20Entry.jpeg) |
 
----
+| Login | Register |
+|--------|-----------|
+| ![](screenshots/Login.jpeg) | ![](screenshots/Register.jpeg) |
+
+| Talent Curve | Trial List |
+|--------------|-------------|
+| ![](screenshots/Talent%20Curve.jpeg) | ![](screenshots/Trial%20list.jpeg) |
 
 ## 🔮 Future Improvements
 
