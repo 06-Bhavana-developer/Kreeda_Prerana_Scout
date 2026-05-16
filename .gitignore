@@ -13,3 +13,8 @@
 .externalNativeBuild
 .cxx
 local.properties
+
+# Custom Additions
+.kotlin/errors/
+*.apk
+*.aab

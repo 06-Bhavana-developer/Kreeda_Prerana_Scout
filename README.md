@@ -1,93 +1,184 @@
-<div align="center">
-  <img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="Android Badge" />
-  <img src="https://img.shields.io/badge/Kotlin-0095D5?&style=for-the-badge&logo=kotlin&logoColor=white" alt="Kotlin Badge" />
-  <img src="https://img.shields.io/badge/Gradle-02303A.svg?style=for-the-badge&logo=Gradle&logoColor=white" alt="Gradle Badge" />
-</div>
+# Kreeda Prerana Scout 🏃‍♂️🏆
 
-<h1 align="center">Kreeda Prerana Scout 🏃‍♂️🏆</h1>
+Igniting the passion for sports and guiding the next generation of athletes.
 
-<p align="center">
-  <strong>Igniting the passion for sports and guiding the next generation of athletes.</strong><br>
-  <em>(Kreeda = Sports, Prerana = Inspiration)</em>
-</p>
+*(Kreeda = Sports, Prerana = Inspiration)*
 
----
 
 ## 🎯 Problem Statement
-In today's digital age, inspiring youth to participate in physical sports and identifying raw talent at the grassroots level has become a significant challenge. **Kreeda Prerana Scout** aims to bridge this gap by acting as a digital scouting and motivational platform. It helps discover promising young athletes, track their sporting activities, and provide the inspiration they need to excel in the world of sports.
+
+In many schools and colleges, athlete performance records are still managed manually using paper records or spreadsheets. This makes it difficult to track athlete progress, maintain performance history, and identify talented athletes efficiently.
+
+**Kreeda Prerana Scout** solves this problem by providing a digital sports talent tracking platform that helps coaches and teachers manage athlete profiles, record trial performances, generate leaderboards, and analyze athlete improvement through performance analytics.
+
+
 
 ## ✨ Features
-*(Note: Since the codebase is currently empty, here are some proposed core features for the application)*
-*   **User Onboarding & Authentication:** Secure login for scouts, coaches, and athletes.
-*   **Dashboard:** Overview of recent scouting activities and sports events.
-*   **Athlete Profile:** Detailed tracking of athlete statistics, achievements, and physical metrics.
-*   **Scouting Form:** Standardized forms for scouts to evaluate players during matches or training.
-*   **Event Calendar:** Schedule and track upcoming local sports events and tournaments.
-*   **Inspiration Feed:** Curated motivational content, success stories, and sports highlights to inspire users.
+
+### Athlete Profile Management
+- Add and manage athlete details
+- Store age, gender, height, weight, BMI, and sports category
+- Maintain athlete performance history
+
+### Trial Logger System
+- Stopwatch-based sprint timing
+- Accurate timing up to two decimal places
+- Event-wise performance recording
+
+### Leaderboard & Rankings
+- Event-based athlete rankings
+- Sprint, jump, and throw event categorization
+- Automatic performance sorting
+
+### Talent Curve Analytics
+- Graphical performance tracking
+- Athlete improvement analysis
+- Performance insights and analytics
+
+### Batch Athlete Entry
+- Add multiple athlete records simultaneously
+- Useful for schools and sports camps
+
+### Milestone Badge System
+- District Level Ready
+- State Level Ready
+- National Level Potential
+- Automatic badge assignment based on performance
+
+### Dashboard Analytics
+- Total athlete statistics
+- Best performance tracking
+- Quick navigation to application modules
+
+
 
 ## 🛠 Tech Stack
-*   **Language:** [Kotlin](https://kotlinlang.org/)
-*   **Platform:** Android
-*   **Build System:** Gradle
-*   **Architecture:** MVVM (Model-View-ViewModel) recommended
+
+- **Programming Language:** Kotlin
+- **Platform:** Android
+- **UI Design:** XML Layouts
+- **Database:** Room Database
+- **Architecture:** MVVM (Model-View-ViewModel)
+- **IDE:** Android Studio
+- **Charts:** MPAndroidChart
+- **Build System:** Gradle
+
+
 
 ## 🚀 Prerequisites & Installation
-Ensure you have the following installed before proceeding:
-*   [Android Studio](https://developer.android.com/studio) (Latest Version Recommended)
-*   Java Development Kit (JDK 17+)
-*   An Android device or Emulator for testing.
 
-### Steps to Run:
-1.  **Clone the repository:**
-    ```bash
-    git clone https://github.com/your-username/kreeda-prerana-scout.git
-    cd kreeda-prerana-scout
-    ```
-2.  **Open in Android Studio:**
-    *   Launch Android Studio.
-    *   Select `File > Open...` and choose the project directory.
-    *   Wait for Gradle to sync completely.
+Before running the project, ensure the following are installed:
 
-## ⚙️ How to Build and Run
-To build a debug APK from the command line, run the following command in the project root:
+- Android Studio (Latest Version Recommended)
+- Java Development Kit (JDK 17+)
+- Android Emulator or Physical Android Device
+
+### Steps to Run
+
+### Clone the Repository
 
 ```bash
-# For Windows
-gradlew.bat assembleDebug
+git clone https://github.com/06-Bhavana-developer/Kreeda-Prerana-Scout-Sports.git
+cd Kreeda-Prerana-Scout-Sports
+```
 
-# For macOS/Linux
+### Open in Android Studio
+
+1. Launch Android Studio
+2. Select **File > Open**
+3. Choose the project folder
+4. Wait for Gradle Sync to complete
+
+
+
+## ⚙️ How to Build and Run
+
+### Build Debug APK
+
+### Windows
+
+```bash
+gradlew.bat assembleDebug
+```
+
+### macOS/Linux
+
+```bash
 ./gradlew assembleDebug
 ```
-The generated APK will typically be located at: `app/build/outputs/apk/debug/app-debug.apk`
+
+Generated APK location:
+
+```bash
+app/build/outputs/apk/debug/app-debug.apk
+```
+
 
 ## 📂 Folder Structure Overview
-*(A typical Android project structure for this app)*
-```text
-Kreeda-Prerana-Scout/
+
+```bash
+Kreeda-Prerana-Scout-Sports/
 ├── app/
 │   ├── src/
 │   │   ├── main/
-│   │   │   ├── java/com/example/kreeda/  # Kotlin source code files
-│   │   │   ├── res/                      # Layouts, strings, drawables, colors
-│   │   │   └── AndroidManifest.xml       # App configuration and permissions
-│   │   ├── test/                         # Local unit tests
-│   │   └── androidTest/                   # Instrumented Android tests
-│   └── build.gradle.kts                  # App-level build configuration
-├── gradle/                               # Gradle wrapper files
-├── build.gradle.kts                      # Project-level build configuration
-├── settings.gradle.kts                   # Project settings and module definitions
-└── README.md                             # Project documentation
+│   │   │   ├── java/com/example/kreeda/
+│   │   │   ├── res/
+│   │   │   └── AndroidManifest.xml
+│   │   ├── test/
+│   │   └── androidTest/
+│   └── build.gradle.kts
+├── gradle/
+├── build.gradle.kts
+├── settings.gradle.kts
+└── README.md
 ```
 
-## 📱 Screenshots
-> _Screenshots coming soon_
+
+
+## 📱 Application Modules
+
+- Dashboard
+- Athlete Registration
+- Athlete Directory
+- Trial Logger
+- Leaderboard
+- Talent Curve
+- Batch Athlete Entry
+- Settings
+
+
+
+## 📱 Application Screenshots
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center"><b>Dashboard</b><br><img src="screenshots/Dashboard.jpeg" width="220" alt="Dashboard"></td>
+      <td align="center"><b>Athlete Directory</b><br><img src="screenshots/Athlete%20Directory.jpeg" width="220" alt="Athlete Directory"></td>
+      <td align="center"><b>Add New Athlete</b><br><img src="screenshots/Add%20New%20Athlete.jpeg" width="220" alt="Add New Athlete"></td>
+      <td align="center"><b>Batch Athlete Entry</b><br><img src="screenshots/Batch%20Athlete%20Entry.jpeg" width="220" alt="Batch Athlete Entry"></td>
+    </tr>
+    <tr>
+      <td align="center"><b>Login</b><br><img src="screenshots/Login.jpeg" width="220" alt="Login"></td>
+      <td align="center"><b>Register</b><br><img src="screenshots/Register.jpeg" width="220" alt="Register"></td>
+      <td align="center"><b>Talent Curve</b><br><img src="screenshots/Talent%20Curve.jpeg" width="220" alt="Talent Curve"></td>
+      <td align="center"><b>Trial list</b><br><img src="screenshots/Trial%20list.jpeg" width="220" alt="Trial list"></td>
+    </tr>
+  </table>
+</div>
 
 ## 🔮 Future Improvements
-*   [ ] Implement real-time chat between scouts and athletes.
-*   [ ] Add video uploading for skill demonstrations.
-*   [ ] Integrate a map feature to locate nearby training facilities.
-*   [ ] Multi-language support (including regional Indian languages for wider reach).
-*   [ ] Offline mode for scouting in areas with poor network connectivity.
+
+- Cloud database integration
+- Multi-language support
+- Real-time coach-athlete communication
+- Athlete performance prediction using AI
+- Online synchronization and backup
+- Export reports in PDF format
+- Wearable sports device integration
+
+
 
 ## 📄 License
-This project is licensed under the [MIT License](LICENSE) - see the LICENSE file for details.
+
+This project was developed for educational and internship purposes as part of **Android App Development using Generative AI**.
