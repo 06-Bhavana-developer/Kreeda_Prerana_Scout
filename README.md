@@ -150,6 +150,16 @@ Kreeda-Prerana-Scout-Sports/
 
 ---
 
+## 📱 Screenshots
+
+> *Screenshots will appear here once images are added to the screenshots/ folder*
+
+| Home Screen | Sports List | Detail Screen |
+| :---: | :---: | :---: |
+| ![Home Screen](screenshots/home_screen.png) | ![Sports List](screenshots/sports_list.png) | ![Detail Screen](screenshots/detail_screen.png) |
+
+---
+
 ## 🔮 Future Improvements
 
 - Cloud database integration

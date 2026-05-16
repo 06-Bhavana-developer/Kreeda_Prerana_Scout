@@ -1,0 +1,1 @@
+Please add your app screenshots here and name them: home_screen.png, sports_list.png, detail_screen.png
