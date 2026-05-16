@@ -1,0 +1,60 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.KreedaPreranaScout" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary_blue</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="android:windowBackground">@color/background_dark</item>
+        <item name="colorSurface">@color/surface_dark</item>
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+
+        <!-- Standardizing Component Styles -->
+        <!-- Use buttonStyle and cardViewStyle for Material 3 compatibility -->
+        <item name="buttonStyle">@style/Widget.App.Button</item>
+        <item name="cardViewStyle">@style/Widget.App.Card</item>
+        <!-- Use toolbarStyle instead of materialToolbarStyle -->
+        <item name="toolbarStyle">@style/Widget.App.Toolbar</item>
+
+        <!-- Set global Action Bar size to 64dp for better balance -->
+        <item name="actionBarSize">64dp</item>
+    </style>
+
+    <style name="Theme.KreedaPreranaScout" parent="Base.Theme.KreedaPreranaScout" />
+
+    <style name="Widget.App.Button" parent="Widget.Material3.Button">
+        <item name="shapeAppearance">@style/ShapeAppearance.App.Button</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+    </style>
+
+    <style name="Widget.App.Card" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardCornerRadius">@dimen/card_corner_radius</item>
+        <item name="cardElevation">@dimen/card_elevation</item>
+        <item name="cardBackgroundColor">@color/surface_dark</item>
+        <item name="strokeWidth">0dp</item>
+    </style>
+
+    <style name="Widget.App.Toolbar" parent="Widget.Material3.Toolbar">
+        <item name="android:background">@color/primary_blue</item>
+        <item name="titleTextColor">@color/white</item>
+        <item name="navigationIconTint">@color/white</item>
+        <item name="titleTextAppearance">@style/TextAppearance.App.Toolbar.Title</item>
+        <item name="android:minHeight">64dp</item>
+        <item name="maxButtonHeight">64dp</item>
+        <item name="titleMargins">16dp</item>
+    </style>
+
+    <style name="TextAppearance.App.Toolbar.Title" parent="TextAppearance.Material3.TitleLarge">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="ShapeAppearance.App.Button" parent="ShapeAppearance.Material3.Corner.Medium">
+        <item name="cornerSize">@dimen/button_corner_radius</item>
+    </style>
+
+    <style name="ShapeAppearance.Circle" parent="ShapeAppearance.Material3.Corner.Full">
+        <item name="cornerSize">50%</item>
+    </style>
+</resources>

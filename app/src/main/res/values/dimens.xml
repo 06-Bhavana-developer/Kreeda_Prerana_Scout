@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Standard Spacing -->
+    <dimen name="spacing_tiny">4dp</dimen>
+    <dimen name="spacing_small">8dp</dimen>
+    <dimen name="spacing_medium">16dp</dimen>
+    <dimen name="spacing_large">24dp</dimen>
+    <dimen name="spacing_xlarge">32dp</dimen>
+
+    <!-- Card & Corner Radii -->
+    <dimen name="card_corner_radius">20dp</dimen>
+    <dimen name="button_corner_radius">16dp</dimen>
+    <dimen name="chip_corner_radius">12dp</dimen>
+
+    <!-- Elevation -->
+    <dimen name="card_elevation">4dp</dimen>
+    <dimen name="fab_elevation">6dp</dimen>
+
+    <!-- FAB Margins -->
+    <dimen name="fab_base_margin_bottom">32dp</dimen>
+    <dimen name="fab_base_margin_end">24dp</dimen>
+
+    <!-- RecyclerView Safe Spacing -->
+    <dimen name="rv_bottom_padding_extra">100dp</dimen>
+    <dimen name="item_spacing">12dp</dimen>
+</resources>
